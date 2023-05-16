@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lotto-container {
+    background-color: red;
+}
+
+button {
+    width: 5em;
+    height: 3em;
+}
