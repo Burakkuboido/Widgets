@@ -10,12 +10,28 @@
 <body>
     <div class="lotto-container">
         <ul class="container">
-            <li id="number01">1</li>
-            <li id="number02">2</li>
-            <li id="number03">3</li>
-            <li id="number04">4</li>
-            <li id="number05">5</li>
-            <button id="lotto-btn" onclick="getNumber()">Click Me</button>
+            <li id="lottonumber01">1</li>
+            <li id="lottonumber02">2</li>
+            <li id="lottonumber03">3</li>
+            <li id="lottonumber04">4</li>
+            <li id="lottonumber05">5</li>
+            <button id="lotto-btn" onclick="getNumber()">Lucky Dip</button>
+        </ul>
+    </div>
+
+    <div class="lotto-container">
+        <ul class="container">
+            <li id="lhpnumber01">1</li>
+            <li id="lhpnumber02">2</li>
+            <li id="lhpnumber03">3</li>
+            <li id="lhpnumber04">4</li>
+            <li id="lhpnumber05">5</li>
+            <a class="square" id="pick1" onclick="onePicked()">1</a>
+            <a class="square" id="pick2" onclick="twoPicked()">2</a>
+            <a class="square" id="pick3" onclick="threePicked()">3</a>
+            <a class="square" id="pick4" onclick="fourPicked()">4</a>
+            <a class="square" id="pick5" onclick="fivePicked()">5</a>
+            <button id="lhp-btn" onclick="getLHPNumber()">Lucky Dip</button>
         </ul>
     </div>
     

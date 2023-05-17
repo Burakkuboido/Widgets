@@ -22,3 +22,27 @@ button {
     width: 5em;
     height: 3em;
 }
+
+#lhpnumber01,
+#lhpnumber02,
+#lhpnumber03,
+#lhpnumber04,
+#lhpnumber05 {
+    display: none;
+}
+
+.square {
+    width: 25px;
+    height: 25px;
+    color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lhp-btn {
+    display: none;
+}
