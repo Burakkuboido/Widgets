@@ -43,6 +43,11 @@ button {
     align-items: center;
 }
 
-#lhp-btn {
+#lhp-btn1,
+#lhp-btn2,
+#lhp-btn3,
+#lhp-btn4,
+#lhp-btn5 {
     display: none;
 }
+
