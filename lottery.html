@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- Lotto -->
+
     <div class="lotto-container">
         <h1>Lotto</h1>
         <ul class="container">
@@ -19,6 +22,8 @@
             <button id="lotto-btn" onclick="getNumber()">Lucky Dip</button>
         </ul>
     </div>
+
+    <!-- Lotto HotPicks -->
 
     <div class="lotto-container">
         <h1>Lotto HotPicks</h1>
@@ -41,6 +46,8 @@
         </ul>
     </div>
 
+    <!-- EuroMillions -->
+
     <div class="lotto-container">
         <h1>EuroMillions</h1>
         <ul class="container">
@@ -54,6 +61,64 @@
             <button id="em-btn" onclick="getEMNumber()">Lucky Dip</button>
         </ul>
     </div>
+
+    <!-- EuroMillions HotPicks -->
+
+    <div class="lotto-container">
+        <h1>EuroMillions HotPicks</h1>
+        <ul class="container">
+            <li id="emhpnumber01">1</li>
+            <li id="emhpnumber02">2</li>
+            <li id="emhpnumber03">3</li>
+            <li id="emhpnumber04">4</li>
+            <li id="emhpnumber05">5</li>
+            <a class="square" id="empick1" onclick="emhpOnePicked()">1</a>
+            <a class="square" id="empick2" onclick="emhpTwoPicked()">2</a>
+            <a class="square" id="empick3" onclick="emhpThreePicked()">3</a>
+            <a class="square" id="empick4" onclick="emhpFourPicked()">4</a>
+            <a class="square" id="empick5" onclick="emhpFivePicked()">5</a>
+            <button id="emhp-btn1" onclick="getEMHPNumber1()">Lucky Dip</button>
+            <button id="emhp-btn2" onclick="getEMHPNumber2()">Lucky Dip</button>
+            <button id="emhp-btn3" onclick="getEMHPNumber3()">Lucky Dip</button>
+            <button id="emhp-btn4" onclick="getEMHPNumber4()">Lucky Dip</button>
+            <button id="emhp-btn5" onclick="getEMHPNumber5()">Lucky Dip</button>
+        </ul>
+    </div>
+
+    <!-- Set For Life -->
+
+    <div class="lotto-container">
+        <h1>Set For Life</h1>
+        <ul class="container">
+            <li id="sflnumber01">1</li>
+            <li id="sflnumber02">2</li>
+            <li id="sflnumber03">3</li>
+            <li id="sflnumber04">4</li>
+            <li id="sflnumber05">5</li>
+            <li id="lifeballnumber01">1</li>
+            <li id="lifeballnumber02">2</li>
+            <button id="em-btn" onclick="getSFLNumber()">Lucky Dip</button>
+        </ul>
+    </div>
+
+    <!-- Thunderball -->
+
+    <div class="lotto-container">
+        <h1>Thunderball</h1>
+        <ul class="container">
+            <li id="tbnumber01">1</li>
+            <li id="tbnumber02">2</li>
+            <li id="tbnumber03">3</li>
+            <li id="tbnumber04">4</li>
+            <li id="tbnumber05">5</li>
+            <li id="TBnumber01">1</li>
+            <button id="em-btn" onclick="getTBNumber()">Lucky Dip</button>
+        </ul>
+    </div>
+
+    <button onclick="clicked()"></button>
+    <p id="number1">1</p>
+    
     
 </body>
 <script src="assets/scripts/lotto.js"></script>

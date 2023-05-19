@@ -27,7 +27,12 @@ button {
 #lhpnumber02,
 #lhpnumber03,
 #lhpnumber04,
-#lhpnumber05 {
+#lhpnumber05,
+#emhpnumber01,
+#emhpnumber02,
+#emhpnumber03,
+#emhpnumber04,
+#emhpnumber05 {
     display: none;
 }
 
@@ -47,7 +52,12 @@ button {
 #lhp-btn2,
 #lhp-btn3,
 #lhp-btn4,
-#lhp-btn5 {
+#lhp-btn5,
+#emhp-btn1,
+#emhp-btn2,
+#emhp-btn3,
+#emhp-btn4,
+#emhp-btn5 {
     display: none;
 }
 

@@ -261,22 +261,284 @@ function getEMNumber(){
 
 /* EuroMillions HotPicks */
 
+var emhpnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+    41, 42, 43, 44, 45, 45, 46, 47, 48, 49,
+    50];
+
+function emhpOnePicked(){
+    one = document.getElementById("empick1");
+    two = document.getElementById("empick2");
+    three = document.getElementById("empick3");
+    four = document.getElementById("empick4");
+    five = document.getElementById("empick5");
+    emhpbtn1 = document.getElementById("emhp-btn1");
+    emhpbtn2 = document.getElementById("emhp-btn2");
+    emhpbtn3 = document.getElementById("emhp-btn3");
+    emhpbtn4 = document.getElementById("emhp-btn4");
+    emhpbtn5 = document.getElementById("emhp-btn5");
+    emhpnumber1 = document.getElementById("emhpnumber01");
+    emhpnumber2 = document.getElementById("emhpnumber02");
+    emhpnumber3 = document.getElementById("emhpnumber03");
+    emhpnumber4 = document.getElementById("emhpnumber04");
+    emhpnumber5 = document.getElementById("emhpnumber05");
+    one.style.display = "none";
+    two.style.display = "none";
+    three.style.display = "none";
+    four.style.display = "none";
+    five.style.display = "none";
+    emhpnumber1.style.display = "block";
+    emhpbtn1.style.display = "block";
+    emhpbtn2.style.display = "none";
+    emhpbtn3.style.display = "none";
+    emhpbtn4.style.display = "none";
+    emhpbtn5.style.display = "none";
+}
+
+function emhpTwoPicked(){
+    one = document.getElementById("empick1");
+    two = document.getElementById("empick2");
+    three = document.getElementById("empick3");
+    four = document.getElementById("empick4");
+    five = document.getElementById("empick5");
+    emhpbtn1 = document.getElementById("emhp-btn1");
+    emhpbtn2 = document.getElementById("emhp-btn2");
+    emhpbtn3 = document.getElementById("emhp-btn3");
+    emhpbtn4 = document.getElementById("emhp-btn4");
+    emhpbtn5 = document.getElementById("emhp-btn5");
+    emhpnumber1 = document.getElementById("emhpnumber01");
+    emhpnumber2 = document.getElementById("emhpnumber02");
+    emhpnumber3 = document.getElementById("emhpnumber03");
+    emhpnumber4 = document.getElementById("emhpnumber04");
+    emhpnumber5 = document.getElementById("emhpnumber05");
+    one.style.display = "none";
+    two.style.display = "none";
+    three.style.display = "none";
+    four.style.display = "none";
+    five.style.display = "none";
+    emhpnumber1.style.display = "block";
+    emhpnumber2.style.display = "block";
+    emhpbtn1.style.display = "none";
+    emhpbtn2.style.display = "block";
+    emhpbtn3.style.display = "none";
+    emhpbtn4.style.display = "none";
+    emhpbtn5.style.display = "none";
+}
+
+function emhpThreePicked(){
+    one = document.getElementById("empick1");
+    two = document.getElementById("empick2");
+    three = document.getElementById("empick3");
+    four = document.getElementById("empick4");
+    five = document.getElementById("empick5");
+    emhpbtn1 = document.getElementById("emhp-btn1");
+    emhpbtn2 = document.getElementById("emhp-btn2");
+    emhpbtn3 = document.getElementById("emhp-btn3");
+    emhpbtn4 = document.getElementById("emhp-btn4");
+    emhpbtn5 = document.getElementById("emhp-btn5");
+    emhpnumber1 = document.getElementById("emhpnumber01");
+    emhpnumber2 = document.getElementById("emhpnumber02");
+    emhpnumber3 = document.getElementById("emhpnumber03");
+    emhpnumber4 = document.getElementById("emhpnumber04");
+    emhpnumber5 = document.getElementById("emhpnumber05");
+    one.style.display = "none";
+    two.style.display = "none";
+    three.style.display = "none";
+    four.style.display = "none";
+    five.style.display = "none";
+    emhpnumber1.style.display = "block";
+    emhpnumber2.style.display = "block";
+    emhpnumber3.style.display = "block";
+    emhpbtn1.style.display = "none";
+    emhpbtn2.style.display = "none";
+    emhpbtn3.style.display = "block";
+    emhpbtn4.style.display = "none";
+    emhpbtn5.style.display = "none";
+}
+
+function emhpFourPicked(){
+    one = document.getElementById("empick1");
+    two = document.getElementById("empick2");
+    three = document.getElementById("empick3");
+    four = document.getElementById("empick4");
+    five = document.getElementById("empick5");
+    emhpbtn1 = document.getElementById("emhp-btn1");
+    emhpbtn2 = document.getElementById("emhp-btn2");
+    emhpbtn3 = document.getElementById("emhp-btn3");
+    emhpbtn4 = document.getElementById("emhp-btn4");
+    emhpbtn5 = document.getElementById("emhp-btn5");
+    emhpnumber1 = document.getElementById("emhpnumber01");
+    emhpnumber2 = document.getElementById("emhpnumber02");
+    emhpnumber3 = document.getElementById("emhpnumber03");
+    emhpnumber4 = document.getElementById("emhpnumber04");
+    emhpnumber5 = document.getElementById("emhpnumber05");
+    one.style.display = "none";
+    two.style.display = "none";
+    three.style.display = "none";
+    four.style.display = "none";
+    five.style.display = "none";
+    emhpnumber1.style.display = "block";
+    emhpnumber2.style.display = "block";
+    emhpnumber3.style.display = "block";
+    emhpnumber4.style.display = "block";
+    emhpbtn1.style.display = "none";
+    emhpbtn2.style.display = "none";
+    emhpbtn3.style.display = "none";
+    emhpbtn4.style.display = "block";
+    emhpbtn5.style.display = "none";
+}
+function emhpFivePicked(){
+    one = document.getElementById("empick1");
+    two = document.getElementById("empick2");
+    three = document.getElementById("empick3");
+    four = document.getElementById("empick4");
+    five = document.getElementById("empick5");
+    emhpbtn1 = document.getElementById("emhp-btn1");
+    emhpbtn2 = document.getElementById("emhp-btn2");
+    emhpbtn3 = document.getElementById("emhp-btn3");
+    emhpbtn4 = document.getElementById("emhp-btn4");
+    emhpbtn5 = document.getElementById("emhp-btn5");
+    emhpnumber1 = document.getElementById("emhpnumber01");
+    emhpnumber2 = document.getElementById("emhpnumber02");
+    emhpnumber3 = document.getElementById("emhpnumber03");
+    emhpnumber4 = document.getElementById("emhpnumber04");
+    emhpnumber5 = document.getElementById("emhpnumber05");
+    one.style.display = "none";
+    two.style.display = "none";
+    three.style.display = "none";
+    four.style.display = "none";
+    five.style.display = "none";
+    emhpnumber1.style.display = "block";
+    emhpnumber2.style.display = "block";
+    emhpnumber3.style.display = "block";
+    emhpnumber4.style.display = "block";
+    emhpnumber5.style.display = "block";
+    emhpbtn1.style.display = "none";
+    emhpbtn2.style.display = "none";
+    emhpbtn3.style.display = "none";
+    emhpbtn4.style.display = "none";
+    emhpbtn5.style.display = "block";
+}
+
+function randomEMHPNumber(){
+    const randomIndex = Math.floor(Math.random() * emhpnumbers.length);
+    const randomNum = emhpnumbers[randomIndex];
+    emhpnumbers.splice(randomIndex, 1);
+    return randomNum;
+}
+
+function getEMHPNumber1(){
+    emhpnumber1 = document.getElementById("emhpnumber01").innerHTML = randomEMHPNumber();
+}
+
+function getEMHPNumber2(){
+    emhpnumber1 = document.getElementById("emhpnumber01").innerHTML = randomEMHPNumber();
+    emhpnumber2 = document.getElementById("emhpnumber02").innerHTML = randomEMHPNumber();
+}
+
+function getEMHPNumber3(){
+    emhpnumber1 = document.getElementById("emhpnumber01").innerHTML = randomEMHPNumber();
+    emhpnumber2 = document.getElementById("emhpnumber02").innerHTML = randomEMHPNumber();
+    emhpnumber3 = document.getElementById("emhpnumber03").innerHTML = randomEMHPNumber();
+}
+
+function getEMHPNumber4(){
+    emhpnumber1 = document.getElementById("emhpnumber01").innerHTML = randomEMHPNumber();
+    emhpnumber2 = document.getElementById("emhpnumber02").innerHTML = randomEMHPNumber();
+    emhpnumber3 = document.getElementById("emhpnumber03").innerHTML = randomEMHPNumber();
+    emhpnumber4 = document.getElementById("emhpnumber04").innerHTML = randomEMHPNumber();
+}
+
+function getEMHPNumber5(){
+    emhpnumber1 = document.getElementById("emhpnumber01").innerHTML = randomEMHPNumber();
+    emhpnumber2 = document.getElementById("emhpnumber02").innerHTML = randomEMHPNumber();
+    emhpnumber3 = document.getElementById("emhpnumber03").innerHTML = randomEMHPNumber();
+    emhpnumber4 = document.getElementById("emhpnumber04").innerHTML = randomEMHPNumber();
+    emhpnumber5 = document.getElementById("emhpnumber05").innerHTML = randomEMHPNumber();
+}
+
+/* Set For life */
+
+var sflnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+    41, 42, 43, 44, 45, 45, 46, 47];
+
+var sfllifeball = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function randomSFLNumber(){
+    const randomIndex = Math.floor(Math.random() * sflnumbers.length);
+    const randomNum = sflnumbers[randomIndex];
+    sflnumbers.splice(randomIndex, 1);
+    return randomNum;
+}
+
+function randomSFLBall(){
+    const randomIndex = Math.floor(Math.random() * sfllifeball.length);
+    const randomNum = sfllifeball[randomIndex];
+    sfllifeball.splice(randomIndex, 1);
+    return randomNum;
+}
+
+function getSFLNumber(){
+    document.getElementById("sflnumber01").innerHTML = randomSFLNumber();
+    document.getElementById("sflnumber02").innerHTML = randomSFLNumber();
+    document.getElementById("sflnumber03").innerHTML = randomSFLNumber();
+    document.getElementById("sflnumber04").innerHTML = randomSFLNumber();
+    document.getElementById("sflnumber05").innerHTML = randomSFLNumber();
+    document.getElementById("lifeballnumber01").innerHTML = randomSFLBall();
+    document.getElementById("lifeballnumber02").innerHTML = randomSFLBall();
+}
+
+/* Thunderball */
+
+var tbnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    31, 32, 33, 34, 35, 36, 37, 38, 39];
+
+var TBnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+
+function randomtbNumber(){
+    const randomIndex = Math.floor(Math.random() * tbnumbers.length);
+    const randomNum = tbnumbers[randomIndex];
+    tbnumbers.splice(randomIndex, 1);
+    return randomNum;
+}
+
+function randomTB(){
+    const randomIndex = Math.floor(Math.random() * TBnumbers.length);
+    const randomNum = TBnumbers[randomIndex];
+    TBnumbers.splice(randomIndex, 1);
+    return randomNum;
+}
+
+function getTBNumber(){
+    document.getElementById("tbnumber01").innerHTML = randomtbNumber();
+    document.getElementById("tbnumber02").innerHTML = randomtbNumber();
+    document.getElementById("tbnumber03").innerHTML = randomtbNumber();
+    document.getElementById("tbnumber04").innerHTML = randomtbNumber();
+    document.getElementById("tbnumber05").innerHTML = randomtbNumber();
+    document.getElementById("TBnumber01").innerHTML = randomTB();
+}
 
 
 
+function myFunction(count) {
+    numbers = [];
+    while (numbers.length < count) {
+        x = Math.floor(Math.random() * 49);
+        if(!numbers.includes(x)) {
+           numbers.push(x)
+        }
+    }
+    return numbers;
+}
 
-/*
-I would create a function that accepts an argument called count - This is how many numbers we want to generate.
+function clicked(){
+    document.getElementById("number1").innerHTML = myFunction(5);
+}
 
-Next, create a new empty array called numbers
-
-While numbers.length < count, generate a random number between 1-49.
-
-If numbers DOES NOT include the generate number, at it to the numbers array.
-
-We can then return numbers at the end of the function
-
-It would then be the case of doing something like
-
-const randomNumbers = generateRandomNumbers(5);
-*/
