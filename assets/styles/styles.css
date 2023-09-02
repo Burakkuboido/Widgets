@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 li {
     list-style-type: none;
-    margin: 10px;
+    margin-bottom: 10px;
     font-size: 24px;
 }
 
@@ -12,52 +13,34 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: 2%;
 }
 
 .lotto-container {
-    background-color: red;
+    height: 15vh;
+    background-color: #e5013b;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.lotto-container > h1,
+.euromillions-container > h1 {
+    margin-left: 2%;
+}
+
+.euromillions-container {
+    height: 15vh;
+    background-color: #f8b400;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
 
 button {
     width: 5em;
     height: 3em;
+    margin-left: 15%;
+    position: absolute;
 }
 
-#lhpnumber01,
-#lhpnumber02,
-#lhpnumber03,
-#lhpnumber04,
-#lhpnumber05,
-#emhpnumber01,
-#emhpnumber02,
-#emhpnumber03,
-#emhpnumber04,
-#emhpnumber05 {
-    display: none;
-}
 
-.square {
-    width: 25px;
-    height: 25px;
-    color: blue;
-    border: 2px solid blue;
-    cursor: pointer;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#lhp-btn1,
-#lhp-btn2,
-#lhp-btn3,
-#lhp-btn4,
-#lhp-btn5,
-#emhp-btn1,
-#emhp-btn2,
-#emhp-btn3,
-#emhp-btn4,
-#emhp-btn5 {
-    display: none;
-}
 
