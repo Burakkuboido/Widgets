@@ -1,3 +1,9 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,23 +30,65 @@ li {
 }
 
 .lotto-container > h1,
-.euromillions-container > h1 {
+.euromillions-container > h1,
+.setforlife-container > h1,
+.thunderball-container > h1,
+.lottoHP-container > h1,
+.euroHP-container > h1 {
     margin-left: 2%;
 }
 
 .euromillions-container {
-    height: 15vh;
-    background-color: #f8b400;
+    height: 16.6666666667vh;
+    background-color: #ff8000;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
 
-button {
+.setforlife-container {
+    height: 16.6666666667vh;
+    background-color: #00d6da;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.thunderball-container {
+    height: 16.6666666667vh;
+    background-color: #bc13ad;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.lottoHP-container {
+    height: 16.6666666667vh;
+    background-color: #cc0034;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.euroHP-container {
+    height: 16.6666666667vh;
+    background-color: #d8460b;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.lotto-btn {
     width: 5em;
     height: 3em;
     margin-left: 15%;
-    position: absolute;
 }
 
+.btn-container {
+    display: flex;
+    gap: 1rem;
+    margin-left: 15%;
+}
+
+.hpnum,
+.emhpnum {
+    width: 5em;
+    height: 3em;
+}
 
 
