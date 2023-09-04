@@ -11,19 +11,20 @@ body {
 
 li {
     list-style-type: none;
-    margin-bottom: 10px;
+
     font-size: 24px;
 }
 
 .container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     padding-left: 2%;
+    justify-content: space-between;
+    padding-right: 2%;
 }
 
+
 .lotto-container {
-    height: 15vh;
+    height: 16vh;
     background-color: #e5013b;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
@@ -39,44 +40,38 @@ li {
 }
 
 .euromillions-container {
-    height: 16.6666666667vh;
+    height: 16.25vh;
     background-color: #ff8000;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
 
 .setforlife-container {
-    height: 16.6666666667vh;
+    height: 16.25vh;
     background-color: #00d6da;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
 
 .thunderball-container {
-    height: 16.6666666667vh;
+    height: 16.25vh;
     background-color: #bc13ad;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
 
 .lottoHP-container {
-    height: 16.6666666667vh;
+    height: 16.5vh;
     background-color: #cc0034;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
 
 .euroHP-container {
-    height: 16.6666666667vh;
+    height: 16.2vh;
     background-color: #d8460b;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-}
-
-.lotto-btn {
-    width: 5em;
-    height: 3em;
-    margin-left: 15%;
 }
 
 .btn-container {
@@ -85,10 +80,75 @@ li {
     margin-left: 15%;
 }
 
-.hpnum,
-.emhpnum {
-    width: 5em;
-    height: 3em;
+
+.btn-settings{
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+padding: 10px 30px;
+border: solid #000000 2px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 0px 50px;
+transition : 526ms;
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn-settings:hover{
+transition : 526ms;
+padding: 10px 50px;
+color: #000000;
+border: solid 2px #000000;
+}
+
+.lotto-btn {
+    background-color: #e5013b;
+}
+
+.em-btn{
+    background-color: #ff8000;
+}
+
+.s4l-btn{
+    background-color: #00d6da;
+}
+
+.tb-btn {
+    background-color: #bc13ad;
 }
 
 
+
+.hp-settings{
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+padding: 10px 20px;
+border: solid #000000 2px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 10px;
+transition : 255ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.hp-settings:hover{
+transition : 255ms;
+padding: 10px 22px;
+transform : translateY(-16px);
+color: #000000;
+border: solid 2px #000000;
+}
+
+.hpnum {
+    background-color: #cc0034;
+}
+
+.emhpnum {
+    background-color: #d8460b;
+}

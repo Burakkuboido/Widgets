@@ -37,13 +37,11 @@ function emFunction() {
     return euroMillions;
 }
 
-
 function embtn() {
     document.getElementById("em-number").innerHTML = emFunction();
 }
 
 /* Set For Life */
-
 
 function s4lFunction(num1, num2) {
     const numbers = [];
@@ -70,7 +68,6 @@ function sflbtn() {
 
 /* ThunderBall */
 
-
 function tbFunction(num1, num2) {
     const numbers = [];
     while (numbers.length < 5) {
@@ -94,7 +91,6 @@ function tbbtn() {
     document.getElementById("tb-number").innerHTML = tbFunction(40, 15);
 }
 
-
 /* Lotto HotPicks */
 
 let btns = document.querySelectorAll('.hpnum');
@@ -114,7 +110,6 @@ btns.forEach(function (i) {
   });
 });
 
-
 /* EuroMillions HotPicks */
 
 let emhpbtn = document.querySelectorAll('.emhpnum');
@@ -133,4 +128,3 @@ emhpbtn.forEach(function (i) {
     document.querySelector('.emhp').innerHTML = newnumbers;
   });
 });
-
