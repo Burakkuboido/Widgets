@@ -11,15 +11,14 @@ body {
 
 li {
     list-style-type: none;
-
     font-size: 24px;
 }
 
 .container {
     display: flex;
-    padding-left: 2%;
+    padding-left: 2em;
     justify-content: space-between;
-    padding-right: 2%;
+    padding-right: 2em;
 }
 
 
@@ -30,14 +29,7 @@ li {
     border-top: 2px solid black;
 }
 
-.lotto-container > h1,
-.euromillions-container > h1,
-.setforlife-container > h1,
-.thunderball-container > h1,
-.lottoHP-container > h1,
-.euroHP-container > h1 {
-    margin-left: 2%;
-}
+
 
 .euromillions-container {
     height: 16.25vh;
@@ -119,8 +111,6 @@ border: solid 2px #000000;
     background-color: #bc13ad;
 }
 
-
-
 .hp-settings{
 font-weight: 500;
 font-size: 18px;
@@ -151,4 +141,143 @@ border: solid 2px #000000;
 
 .emhpnum {
     background-color: #d8460b;
+}
+
+
+@media (max-width: 600px) {
+    html,
+    body {
+        height: 100%;
+        overflow: auto;
+        margin: 0;
+    }
+
+    .lotto-container > h1,
+    .thunderball-container > h1,
+    .setforlife-container > h1,
+    .euromillions-container > h1,
+    .euroHP-container > h1,
+    .lottoHP-container > h1 {
+        margin-left: 0;
+    }
+
+    .lotto-container,
+    .thunderball-container,
+    .setforlife-container,
+    .euromillions-container,
+    .euroHP-container,
+    .lottoHP-container {
+        height: 30vh;
+        padding-left: 1em;
+        padding-bottom: 1em;
+    }
+
+    .hp-container {
+        padding: 0;
+    }
+
+    .btn-container {
+        margin-left: 0;
+        padding-top: 2em;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .btn-settings{
+        margin-top: 2em;
+        padding: 10px 10px;
+        border-radius: 5px;
+        display: block;
+        width: 10em;
+        transition : 526ms;
+    }
+
+    .btn-settings:hover{
+        transition : 526ms;
+        width: 12em;
+        }
+
+}
+
+
+
+@media (min-width: 600px) and (max-width: 700px){
+    html,
+    body {
+        height: 100%;
+        overflow: auto;
+        margin: 0;
+    }
+
+    .lotto-container > h1,
+    .thunderball-container > h1,
+    .setforlife-container > h1,
+    .euromillions-container > h1,
+    .euroHP-container > h1,
+    .lottoHP-container > h1 {
+        margin-left: 0;
+    }
+
+    .lotto-container,
+    .thunderball-container,
+    .setforlife-container,
+    .euromillions-container,
+    .euroHP-container,
+    .lottoHP-container {
+        height: 25vh;
+        padding-left: 1em;
+    }
+
+    .hp-container {
+        padding: 0;
+    }
+
+    .btn-container {
+        margin-left: 0;
+        padding-top: 2em;
+    }
+}
+
+@media (min-width: 700px){
+    html,
+    body {
+        height: 100%;
+        overflow: auto;
+        margin: 0;
+    }
+
+    .lotto-container > h1,
+    .thunderball-container > h1,
+    .setforlife-container > h1,
+    .euromillions-container > h1,
+    .euroHP-container > h1,
+    .lottoHP-container > h1 {
+        margin-left: 1em;
+    }
+
+    .lotto-container,
+    .thunderball-container,
+    .setforlife-container,
+    .euromillions-container,
+    .euroHP-container,
+    .lottoHP-container {
+        height: 20vh;
+
+    }
+
+    .hp-container {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 2em;
+        padding-left: 2em;
+    }
+
+    .btn-container {
+        margin-left: 0;
+    }
 }
