@@ -3,7 +3,7 @@
 function myFunction(count) {
     numbers = [];
     while (numbers.length < count) {
-        x = Math.floor(Math.random() * 49);
+        x = Math.floor(Math.random() * 59 + 1);
         if (!numbers.includes(x)) {
             numbers.push(x);
             newnumbers = numbers.join(" | ");
@@ -13,7 +13,7 @@ function myFunction(count) {
 }
 
 function clicked() {
-    document.getElementById("number1").innerHTML = myFunction(5);
+    document.getElementById("number1").innerHTML = myFunction(6);
 }
 
 /* Euro Millions */
