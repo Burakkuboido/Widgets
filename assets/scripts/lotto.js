@@ -52,8 +52,8 @@ function s4lFunction(num1, num2) {
         }
     }
     const lifeball = [];
-    while (lifeball.length < 2) {
-        x = Math.floor(Math.random() * num2);
+    while (lifeball.length < 1) {
+        x = Math.floor(Math.random() * num2 + 1);
         if (!lifeball.includes(x)) {
             lifeball.push(x);
         }
@@ -71,13 +71,13 @@ function sflbtn() {
 function tbFunction(num1, num2) {
     const numbers = [];
     while (numbers.length < 5) {
-        x = Math.floor(Math.random() * num1);
+        x = Math.floor(Math.random() * num1 + 1);
         if (!numbers.includes(x)) {
             numbers.push(x);
         }
     }
     const tball = [];
-    while (tball.length < 2) {
+    while (tball.length < 1) {
         x = Math.floor(Math.random() * num2);
         if (!tball.includes(x)) {
             tball.push(x);
